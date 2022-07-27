@@ -1,0 +1,35 @@
+html, body {
+  background-color: #dedede;
+}
+
+#portrait {
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  background-color: #dedede;
+  display: flex;
+  justify-content: center;
+}
+
+#portrait img {
+  -webkit-animation: rotation 5s 1 linear;
+          animation: rotation 5s 1 linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}/*# sourceMappingURL=portrait.css.map */

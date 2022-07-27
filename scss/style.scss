@@ -1,0 +1,96 @@
+@import url('imports/slideshow.scss');
+@import url('imports/portrait.scss');
+
+html, body {
+    height: 100vh;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    margin: 0px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    counter-reset : numerotation;
+}
+#geek:hover{
+    cursor: pointer;
+}
+
+.masque{
+    display : none !important;
+}
+
+.ZoneJS{
+    grid-column-start: 1;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.CodeZone{
+    grid-column-start: 2;
+    font-family: 'Fira Code', monospace;
+    font-variant-ligatures: normal;
+    background-color: rgb(12, 12, 12);
+    color:rgb(188, 187, 187);
+    padding: 10px;
+    height: 100vh;
+}
+.CodeZone a{
+    text-decoration: none;
+}
+.lineStart::before{
+    counter-increment:numerotation;
+    content: counter(numerotation);
+    width: 20px;
+    display: block;
+    text-align: end;
+    padding-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.deprecated{
+    text-decoration:line-through;
+}
+.bleue{
+    color: rgb(23, 96, 223);
+}
+.bleueClair{
+    color: rgb(79, 203, 248);
+}
+.vertClass{
+    color: rgb(44, 198, 100);
+}
+.jaunePale{
+    color: rgb(188, 184, 68);
+}
+.blanc{
+    color:white;
+}
+.rose{
+    color:rgb(198, 91, 158);
+}
+.line{
+    display: flex;
+}
+.spacer{
+padding: 2px;
+opacity: 0.3;
+}
+.ligneCode{
+    margin-left: 4px;
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+/***
+*
+*
+*
+*/
+
