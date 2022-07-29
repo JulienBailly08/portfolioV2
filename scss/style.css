@@ -1,4 +1,5 @@
 @import url("imports/slideshow.scss");
+@import url("imports/portraitArrivee.scss");
 @import url("imports/portrait.scss");
 html, body {
   height: 100vh;
@@ -17,7 +18,7 @@ body {
   counter-reset: numerotation;
 }
 
-#geek:hover {
+#competences:hover {
   cursor: pointer;
 }
 
@@ -44,8 +45,51 @@ body {
 
 .CodeZone a {
   text-decoration: none;
+  -webkit-animation: shockwaveJump 3s ease-out infinite;
+          animation: shockwaveJump 3s ease-out infinite;
 }
 
+@-webkit-keyframes shockwaveJump {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.08);
+  }
+  50% {
+    transform: scale(0.98);
+  }
+  55% {
+    transform: scale(1.02);
+  }
+  60% {
+    transform: scale(0.98);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes shockwaveJump {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.08);
+  }
+  50% {
+    transform: scale(0.98);
+  }
+  55% {
+    transform: scale(1.02);
+  }
+  60% {
+    transform: scale(0.98);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .lineStart::before {
   counter-increment: numerotation;
   content: counter(numerotation);
@@ -99,10 +143,4 @@ body {
   display: flex;
   margin-top: 2px;
   margin-bottom: 2px;
-}
-
-/***
-*
-*
-*
-*//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

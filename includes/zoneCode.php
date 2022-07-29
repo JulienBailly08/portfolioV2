@@ -138,39 +138,41 @@
 <!--- fin function-->
 
 <!--- debut function-->
-<span id="geek">
+<span>
     <span class="line">
         <span class="lineStart"></span>
     </span>
-    <span class="line">
-        <span class="lineStart"></span>
-        <span class="spacer">....</span>
-        <span class="ligneCode bleue">private function&nbsp;<span class="jaunePale">afficher Competences</span>()</span>
-    </span>
-    <span class="line">
-        <span class="lineStart"></span>
-        <span class="spacer">....</span>
-        <span class="ligneCode">&#123;</span>
-    </span>
-    <span class="line">
-        <span class="lineStart"></span>
-        <span class="spacer">....</span>
-        <span class="spacer">....</span>
-        <span>Aussi simple qu'un&nbsp;</span>
-        <span class="ligneCode bleue">CLICK
-            <span class="blanc">;</span>
+    <span id="competences">
+        <span class="line">
+            <span class="lineStart"></span>
+            <span class="spacer">....</span>
+            <span class="ligneCode bleue">private function&nbsp;<span class="jaunePale">afficher Competences</span>()</span>
         </span>
-    </span>
-    <span class="line">
-        <span class="lineStart"></span>
-        <span class="spacer">....</span>
-        <span class="ligneCode">&#125;</span>
+        <span class="line">
+            <span class="lineStart"></span>
+            <span class="spacer">....</span>
+            <span class="ligneCode">&#123;</span>
+        </span>
+        <span class="line">
+            <span class="lineStart"></span>
+            <span class="spacer">....</span>
+            <span class="spacer">....</span>
+            <span>Aussi simple qu'un&nbsp;</span>
+            <span class="ligneCode bleue">CLICK
+                <span class="blanc">;</span>
+            </span>
+        </span>
+        <span class="line">
+            <span class="lineStart"></span>
+            <span class="spacer">....</span>
+            <span class="ligneCode">&#125;</span>
+        </span>
     </span>
 </span>
 <!--- fin function-->
 
 <span class="line">
-    <span class="lineStart"></span>
+    <span class="lineStart">=>!=</span>
 </span>
 <span class="line">
     <span class="lineStart"></span>

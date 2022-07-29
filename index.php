@@ -15,6 +15,7 @@
 <body>
     <div class="ZoneJS">
         <?php include('includes/slideshow.php')?>
+        <?php include('includes/1stportrait.php')?>
         <?php include('includes/portrait.php')?>
 
     </div>

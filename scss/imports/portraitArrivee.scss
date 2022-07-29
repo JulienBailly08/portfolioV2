@@ -1,0 +1,26 @@
+
+ html, body {
+ 	background-color: #dedede;
+}
+
+#premierPortrait {
+	margin: 0 auto;
+	height: auto;
+	width: 100%;
+	background-color: #dedede;
+    display:flex;
+    justify-content: center;
+}
+
+#premierPortrait img {
+    animation: rotation 5s 1 linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

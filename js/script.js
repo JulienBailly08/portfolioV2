@@ -1,7 +1,9 @@
 function afficherEtMasquer(item) {
     item.classList.toggle('masque');
-    portrait.classList.toggle('masque');
-
+    if(premierPortrait.classList.value == 'masque'){
+        portrait.classList.toggle('masque');
+    }
+    premierPortrait.classList.add('masque');
     setTimeout(() => {
         if (item.classList.length == 0) {
             item.classList.toggle('masque');
@@ -20,19 +22,20 @@ function afficherEtMasquer(item) {
     }, 5000);
 }
 
-const geek = document.getElementById('geek');
+const competences = document.getElementById('competences');
 const carousel = document.getElementById('slideshow');
 const portrait = document.getElementById('portrait');
+const premierPortrait = document.getElementById('premierPortrait');
 
 const declencheurs = [
-    geek
+    competences
 ];
 
 const zoneAnimees = [
     carousel
 ];
 
-geek.addEventListener('click', function () {
+competences.addEventListener('click', function () {
     afficherEtMasquer(carousel);
 });
 
