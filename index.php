@@ -17,7 +17,7 @@
         <?php include('includes/slideshow.php')?>
         <?php include('includes/1stportrait.php')?>
         <?php include('includes/portrait.php')?>
-
+        <?php include('includes/formulaire.php')?>
     </div>
     <div class="CodeZone">
         <?php include('includes/zoneCode.php')?>

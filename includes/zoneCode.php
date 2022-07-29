@@ -15,9 +15,6 @@
 </span>
 <span class="line">
     <span class="lineStart"></span>
-</span>
-<span class="line">
-    <span class="lineStart"></span>
     <span class="spacer">....</span>
     <span class="ligneCode bleue"><span class="jaunePale">__construct</span>()</span>
 </span>
@@ -125,7 +122,7 @@
     <span class="lineStart"></span>
     <span class="spacer">....</span>
     <span class="spacer">....</span>
-    <span class="rose">return&nbsp;</span><a class="bleue" href="https://julienbailly.ddns.net/cv" target="_blanck">CV&nbsp;</a>
+    <span class="rose">return&nbsp;</span><a class="bleue" href="https://julienbailly.ddns.net/cv" target="_blanck">CV</a>
     <span class="blanc">;</span>
 </span>
 </span>
@@ -170,9 +167,42 @@
     </span>
 </span>
 <!--- fin function-->
-
-<span class="line">
-    <span class="lineStart">=>!=</span>
+<span>
+    <span class="line">
+        <span class="lineStart"></span>
+    </span>
+    <span id="afficherForm">
+        <span class="line">
+            <span class="lineStart"></span>
+            <span class="spacer">....</span>
+            <span class="ligneCode bleue">public function&nbsp;<span class="jaunePale">écrire un message</span>()</span>
+        </span>
+        <span class="line">
+            <span class="lineStart"></span>
+            <span class="spacer">....</span>
+            <span class="ligneCode">&#123;</span>
+        </span>
+        <span class="line">
+            <span class="lineStart"></span>
+            <span class="spacer">....</span>
+            <span class="spacer">....</span>
+            <span class="">Parce que ça fait toujours plaisir</span>
+            <span class="blanc">;</span>
+        </span>
+        <span class="line">
+            <span class="lineStart"></span>
+            <span class="spacer">....</span>
+            <span class="spacer">....</span>
+            <span class="rose">return&nbsp;</span>
+            <span class="bleue">Formulaire de contact</span>
+            <span class="blanc">;</span>
+        </span>
+        <span class="line">
+            <span class="lineStart"></span>
+            <span class="spacer">....</span>
+            <span class="ligneCode">&#125;</span>
+        </span>
+    </span>
 </span>
 <span class="line">
     <span class="lineStart"></span>

@@ -1,8 +1,10 @@
 @import url("imports/slideshow.scss");
 @import url("imports/portraitArrivee.scss");
 @import url("imports/portrait.scss");
+@import url("imports/formulaire.scss");
 html, body {
   height: 100vh;
+  font-size: 0.96rem;
 }
 
 * {
@@ -22,7 +24,15 @@ body {
   cursor: pointer;
 }
 
+#afficherForm:hover {
+  cursor: pointer;
+}
+
 .masque {
+  display: none !important;
+}
+
+.masqueflag {
   display: none !important;
 }
 

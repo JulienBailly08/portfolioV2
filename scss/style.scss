@@ -1,9 +1,10 @@
 @import url('imports/slideshow.scss');
 @import url('imports/portraitArrivee.scss');
 @import url('imports/portrait.scss');
-
+@import url('imports/formulaire.scss');
 html, body {
     height: 100vh;
+    font-size: 0.96rem;
 }
 * {
 	margin: 0;
@@ -17,11 +18,16 @@ body {
     grid-template-columns: 1fr 1fr;
     counter-reset : numerotation;
 }
-#competences:hover{
+#competences:hover {
     cursor: pointer;
 }
-
+#afficherForm:hover{
+    cursor: pointer;
+}
 .masque{
+    display : none !important;
+}
+.masqueflag{
     display : none !important;
 }
 .ZoneJS{
